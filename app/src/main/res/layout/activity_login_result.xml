@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginResultActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom_16"
+                android:layout_marginTop="@dimen/margin_top_16"
+                android:paddingBottom="@dimen/padding_16"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginLeft="@dimen/margin_left_16"
+                    android:layout_marginTop="@dimen/margin_top_16"
+                    android:layout_marginRight="@dimen/margin_right_16"
+                    android:layout_marginBottom="@dimen/margin_bottom_16"
+                    android:alpha=".9"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/button3"
+                            android:layout_marginRight="@dimen/margin_right_4"
+                            android:layout_marginBottom="@dimen/margin_bottom_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="130dp"
+                            android:layout_weight="1"
+                            android:text="재난 전화 신고하기"
+                            style="@style/Font_family_regular"
+                            android:background="@drawable/red_style2"
+                            android:textSize="@dimen/text_18"
+                            android:textColor="@color/white"/>
+
+                        <Button
+                            android:id="@+id/button4"
+                            android:layout_marginLeft="@dimen/margin_left_4"
+                            android:layout_marginBottom="@dimen/margin_bottom_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="130dp"
+                            android:layout_weight="1"
+                            android:text="재난 위치 신고하기"
+                            style="@style/Font_family_regular"
+                            android:background="@drawable/red_style2"
+                            android:textSize="@dimen/text_18"
+                            android:textColor="@color/white"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/button5"
+                            android:layout_marginRight="@dimen/margin_right_4"
+                            android:layout_marginTop="@dimen/margin_top_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="130dp"
+                            android:layout_weight="1"
+                            android:text="주변인에게 알리기"
+                            style="@style/Font_family_regular"
+                            android:background="@drawable/red_style2"
+                            android:textSize="@dimen/text_18"
+                            android:textColor="@color/white"/>
+
+                        <Button
+                            android:id="@+id/button6"
+                            android:layout_marginTop="@dimen/margin_top_4"
+                            android:layout_marginLeft="@dimen/margin_left_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="130dp"
+                            android:layout_weight="1"
+                            android:text="출동차량 확인하기"
+                            style="@style/Font_family_regular"
+                            android:background="@drawable/red_style2"
+                            android:textSize="@dimen/text_18"
+                            android:textColor="@color/white"/>
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
