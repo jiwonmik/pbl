@@ -39,8 +39,22 @@ class PlusProtectorActivity : AppCompatActivity() {
         val inflater = getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
         val view = inflater.inflate(R.layout.alert_popup, null)
         val textView: TextView = view.findViewById(R.id.txt_pop)
+        val textView2: TextView = view.findViewById(R.id.txt_pop2)
+        val textView3: TextView = view.findViewById(R.id.txt_pop3)
 
-        textView.text = "보호자는 이 인증번호를 등록하십시오."
+        
+        val arrayList = ArrayList<Int>()
+
+        val rand = java.util.Random().nextInt(999999)
+        if(arrayList.contains(rand)){
+            kotlin.run { butSave }
+        } else{
+            textView2.text = rand.toString()
+        }
+        arrayList.add(rand)
+
+        textView.text = "인증번호: "
+        textView3.text = "보호자는 이 인증번호를 등록하십시오."
 
         val alertDialog = AlertDialog.Builder(this).setTitle("인증번호 생성").create()
 
