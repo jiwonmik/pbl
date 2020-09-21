@@ -56,29 +56,6 @@
 
                     <!--Name Details-->
 
-                    <EditText
-                        android:id="@+id/reg_name_et"
-                        style="@style/Font_family_light"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@color/curated_light"
-                        android:drawableLeft="@drawable/ic_person"
-                        android:drawablePadding="@dimen/padding_8"
-                        android:hint="Name"
-                        android:inputType="text"
-                        android:maxLength="30"
-                        android:maxLines="1"
-                        android:padding="@dimen/padding_16"
-                        android:textColor="@color/black"
-                        android:textColorHint="@color/black"
-                        android:textSize="@dimen/text_18" />
-
-
-                    <View
-                        style="@style/Normal_Margin_Style"
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/dimen_1"
-                        android:background="@color/view_line" />
 
                     <!--Name Details-->
 

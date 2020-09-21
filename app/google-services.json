@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "371380696689",
+    "firebase_url": "https://sospbl.firebaseio.com",
+    "project_id": "sospbl",
+    "storage_bucket": "sospbl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371380696689:android:8e2a5f3a9f610839a74dd0",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371380696689-c460421ct3f58mvorij1hqj0iqeabir2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "5f3cbb78734e5c74ab5d523b7a288154ae590c65"
+          }
+        },
+        {
+          "client_id": "371380696689-9jro43ililhj07sja5can9pjh36lidit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYVSd16pFfzXNOxUhdOazlt3xzNhtcnfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371380696689-9jro43ililhj07sja5can9pjh36lidit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
